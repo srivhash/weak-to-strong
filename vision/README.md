@@ -43,14 +43,14 @@ python3 run_weak_strong.py --strong_model_name resnet50_dino --n_epochs 20
 python3 run_weak_strong.py --strong_model_name vitb8_dino --n_epochs 5
 ```
 
-With the comands above we get the following results (note that the results may not reproduce exactly due to randomness):
+With the commands above we get the following results (note that the results may not reproduce exactly due to randomness):
 
 | Model                   | Top-1 Accuracy |
 |-------------------------|----------------|
 | AlexNet                 | 56.6           |
-| Dino ResNet50           | 63.7           |
-| Dino ViT-B/8            | 74.9           |
-| AlexNet → DINO ResNet50 | 60.7           |
-| AlexNet → DINO ViT-B/8  | 64.2           |
+| Dino ResNet50           | 64.5           |
+| Dino ViT-B/8            | 74.0           |
+| AlexNet → DINO ResNet50 | 61.9           |
+| AlexNet → DINO ViT-B/8  | 66.6           |
 
 You can add new custom models to the `models.py` and new datasets to `data.py`.
